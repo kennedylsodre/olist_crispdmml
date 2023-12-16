@@ -1,0 +1,24 @@
+#CRISP-DM Olist
+
+--Bussiness Understanding
+
+Olist é uma empresa de marketplace que vende produtos, porém seu cliente
+final não é o comprador do produto, mas sim o vendedor. Ou seja, o vendedor
+contrata a Olist para realizar anúncios de seus produtos. 
+
+Para a Olist o cliente é o vendedor(seller), para o vendedor(seller) o cliente
+é quem realiza a compra. 
+
+Nós temos dados dos pedidos, dos produtos, dos pagamentos dos pedidos, dos vendedores, dos clientes e geolocalização dos 
+clientes e vendedores.
+
+Infelizmente, nem todos os vendedores conseguem perpetuar no negócio,
+nosso objetivo é entender o que faz um vendedor encerrar seu vínculo com a 
+Olist e criar um modelo capaz de prever se o vendedor encerrará o vínculo ou não. 
+
+
+--Entendimento dos dados 
+
+    --Coleta de dados: os dados estavam no github da olist, usei a api do github e a biblioteca
+    requests para baixar os dados no meu computador local em formato csv. 
+    --
